@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+
+* {
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Inter';
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(249, 249, 249);
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 0.12px;
+    text-transform: capitalize;
+    margin: 1% 1%;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+ul>li>a {
+    margin: 0.6rem;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.main {
+    position: relative;
+}
+
+.img {
+    height: 100vh;
+    background: url('/frontend_ex/image.png') center/cover no-repeat;
+    position: relative;
+}
+
+.img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0.1));
+}
+
+.img-items1 {
+    position: relative;
+    top: 6rem;
+    left: 7rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 5.5rem;
+    font-family: 'Inter';
+    color: white;
+    display: inline-block;
+}
+
+.img-items2 {
+    font-size: 1.3rem;
+    color: #ffffffc4;
+    letter-spacing: 5px;
+    line-height: 142%;
+    padding: 14px 13px;
+    display: inline-block;
+}
+
+.iconbar {
+    position: absolute;
+    top: 90%;
+    left: 8%;
+    background-color: rgb(249, 249, 249);
+    box-shadow: 10px 10px 32px 0px rgba(0, 0, 0, 0.3);
+    border: 2px solid #00000012;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.a1 {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    margin: 10px 10px;
+    border-radius: 50%;
+    color: #000000;
+    font-size: 1.5rem;
+}
+
+.a-text {
+    font-size: 1.3rem;
+    font-family: 'Inter';
+    color: #000000;
+    font-weight: 500;
+    letter-spacing: 2.5px;
+    padding-left: 2.5rem;
+}
+
+.price-text {
+    margin-top: 9rem;
+    text-align: center;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+    background-color: rgb(249, 249, 249);
+}
+
+.bottom-text {
+    padding: 0.8rem;
+}
+
+.box {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+
+}
+
+.boxx {
+    background-color: rgb(249, 249, 249);
+    box-shadow: 10px 10px 32px 0px rgba(0, 0, 0, 0.3);
+    border: 2px solid #00000012;
+    display: inline-block;
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+.boxx-text {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.boxx-price {
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2rem 0;
+}
+
+.price-adv {
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+
+}
+
+.price-adv>div {
+    padding: 0.3rem 0;
+}
+
+.price-tick {
+    display: flex;
+}
+
+.price-tick>img {
+    padding-right: 0.5rem;
+}
